@@ -34,19 +34,6 @@ export default function Hero() {
           </Button>
         </div>
       </div>
-      {/* Decorative Image and Demo Count */}
-      {/* <div className="absolute bottom-10 left-10  justify-items-center xl:ml-60  lg:ml-40 hidden lg:flex items-center w-full">
-        <div className="flex flex-col items-center mr-4">
-            <span className="text-5xl font-extrabold">38+</span>
-        <span className="text-gray-300 tracking-wider text-sm">DEMO</span>
-        </div>
-
-        <img
-          src="https://eduma.thimpress.com/wp-content/uploads/2024/03/image-head-5.png"
-          alt="Best Seller"
-          className="w-24 h-24 object-contain mx-auto"
-        />
-      </div> */}
       <div
         className="absolute bottom-[-8] left-10 xl:ml-60 lg:ml-40 hidden lg:flex items-center w-full 
            transition-transform duration-500 ease-in-out hover:-translate-y-4 hover:scale-105 hover:-translate-x-2"

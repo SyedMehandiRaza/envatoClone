@@ -38,7 +38,7 @@ export default function PremiumDemos() {
   return (
     <section className="relative flex flex-col items-center justify-center text-center overflow-hidden px-4">
       {/* Background Text */}
-      <h1 className="absolute inset-0 flex items-center justify-center text-[80px] sm:text-[150px] lg:text-[250px] font-extrabold text-white/5 select-none tracking-tight">
+      <h1 className="absolute inset-0 flex items-center justify-center text-[80px] sm:text-[150px] lg:text-[250px] font-extrabold text-white/5 select-none tracking-tight transition-transform duration-500 ease-in-out hover:-translate-y-4 hover:scale-105 hover:-translate-x-2">
         EDUMA
       </h1>
 

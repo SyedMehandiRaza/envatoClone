@@ -62,66 +62,6 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    
-    // <section className="bg-[#0D1430] py-16 text-white h-screen">
-    //   <div className="max-w-6xl mx-auto px-6 text-center">
-    //     <h2 className="text-3xl md:text-4xl font-bold mb-2">Why Choose Us</h2>
-    //     <p className="text-gray-300 mb-12">
-    //       Eduma elevates education with Innovative Solutions, Inspiring
-    //       Engagement, and Unleashing Learning Potential.
-    //     </p>
-
-    //     {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-    //       {stats.map((stat, i) => (
-    //         <Card key={i} className="bg-[#1E2748] border-none shadow-lg text-center rounded-2xl">
-    //           <CardContent className="flex flex-col items-center justify-center gap-3 py-8">
-    //             <div>{stat.icon}</div>
-    //             <h3 className="text-2xl md:text-3xl font-bold text-white">{stat.value}</h3>
-    //             <p className="text-gray-300 text-sm md:text-base">{stat.label}</p>
-    //           </CardContent>
-    //         </Card>
-    //       ))}
-    //     </div> */}
-    //     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-    //       {stats.map((stat, i) => (
-    //         <Card
-    //           key={i}
-    //           className={`
-    //     bg-[#1E2748] border-none shadow-lg text-center rounded-2xl 
-    //     transition-transform duration-300
-    //     ${i % 2 === 0 ? "translate-y-4" : "-translate-y-4"} 
-    //   `}
-    //         >
-    //           <CardContent className="flex flex-col items-center justify-center gap-3 py-8">
-    //             {/* Conditional layout: even index → icon below, odd index → icon above */}
-    //             {i % 2 === 0 ? (
-    //               <>
-    //                 <h3 className="text-white text-2xl md:text-3xl font-bold">
-    //                   {stat.value}
-    //                 </h3>
-    //                 <p className="text-gray-500 text-sm md:text-base">
-    //                   {stat.label}
-    //                 </p>
-    //                 <div>{stat.icon}</div>
-    //               </>
-    //             ) : (
-    //               <>
-    //                 <div>{stat.icon}</div>
-    //                 <h3 className="text-white text-2xl md:text-3xl font-bold">
-    //                   {stat.value}
-    //                 </h3>
-    //                 <p className="text-gray-500 text-sm md:text-base">
-    //                   {stat.label}
-    //                 </p>
-    //               </>
-    //             )}
-    //           </CardContent>
-    //         </Card>
-    //       ))}
-    //     </div>
-    //   </div>
-      
-    // </section>
     <section className="bg-[#0D1430] py-16 text-white">
   <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
@@ -132,15 +72,15 @@ export default function WhyChooseUs() {
       and Unleashing Learning Potential.
     </p>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 w-full">
       {/* cards */}
       {stats.map((stat, i) => (
             <Card
               key={i}
               className={`
         bg-[#1E2748] border-none shadow-lg text-center rounded-2xl mt-8
-        transition-transform duration-300
-        ${i % 2 === 0 ? "translate-y-4" : "-translate-y-4"} 
+        transition-transform duration-300 
+        ${i % 2 === 0 ? "translate-y-5" : "-translate-y-5"} 
       `}
             >
               <CardContent className="flex flex-col items-center justify-center gap-3 py-8">

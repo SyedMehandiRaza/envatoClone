@@ -126,6 +126,7 @@ export default function Navbar() {
             <li><Link href="#" className="hover:text-orange-400">What’s New</Link></li>
           </ul>
 
+
           {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2"
@@ -135,7 +136,7 @@ export default function Navbar() {
           </button>
 
           {/* Buy Now */}
-          <Button className="hidden md:inline rounded-full bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-500 hover:to-orange-700 px-5 py-3 text-sm lg:text-lg font-semibold ">
+          <Button className="hidden md:inline rounded-full bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-500 hover:to-orange-700 pb-10 text-sm lg:text-lg font-semibold ">
             Buy Now ($69)
           </Button>
         </div>
